@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyasn1
 Version  : 0.4.8
-Release  : 90
+Release  : 91
 URL      : https://files.pythonhosted.org/packages/a4/db/fffec68299e6d7bad3d504147f9094830b704527a7fc098b721d38cc7fa7/pyasn1-0.4.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a4/db/fffec68299e6d7bad3d504147f9094830b704527a7fc098b721d38cc7fa7/pyasn1-0.4.8.tar.gz
 Summary  : ASN.1 types and codecs
@@ -14,11 +14,8 @@ Requires: pypi-pyasn1-license = %{version}-%{release}
 Requires: pypi-pyasn1-python = %{version}-%{release}
 Requires: pypi-pyasn1-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pyasn1
-Provides: pyasn1-python
-Provides: pyasn1-python3
-BuildRequires : py
-BuildRequires : pytest
+BuildRequires : pypi-py
+BuildRequires : pypi-pytest
 
 %description
 ASN.1 library for Python
@@ -65,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641473122
+export SOURCE_DATE_EPOCH=1650520379
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
