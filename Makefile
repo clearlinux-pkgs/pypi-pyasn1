@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pyasn1
-URL = https://files.pythonhosted.org/packages/ce/dc/996e5446a94627fe8192735c20300ca51535397e31e7097a3cc80ccf78b7/pyasn1-0.5.1.tar.gz
+URL = https://files.pythonhosted.org/packages/4a/a3/d2157f333900747f20984553aca98008b6dc843eb62f3a36030140ccec0d/pyasn1-0.6.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
