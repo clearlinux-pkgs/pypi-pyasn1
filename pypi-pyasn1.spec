@@ -7,7 +7,7 @@
 #
 Name     : pypi-pyasn1
 Version  : 0.6.0
-Release  : 106
+Release  : 107
 URL      : https://files.pythonhosted.org/packages/4a/a3/d2157f333900747f20984553aca98008b6dc843eb62f3a36030140ccec0d/pyasn1-0.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4a/a3/d2157f333900747f20984553aca98008b6dc843eb62f3a36030140ccec0d/pyasn1-0.6.0.tar.gz
 Summary  : Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
